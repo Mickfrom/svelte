@@ -1,0 +1,25 @@
+.btn {
+    color: brown;
+    margin-left: 100px;
+}
+
+.font-color {
+    background-color: black;
+}
+
+#header {
+    color: white;
+    background-color: rgb(93, 84, 84);
+}
+
+.hright {
+    justify-content: right;
+    display: flex;
+}
+
+.btnH {
+  left: 50px;
+  position: relative;
+  top: 40px;
+}
+
