@@ -9,7 +9,7 @@ import img6 from '../images/img-6.jpg'
 import img7 from '../images/img-7.jpg'
 import img8 from '../images/img-8.jpg'
 import img9 from '../images/img-9.jpg'
-import '../Cards.css';
+import './Cards.css';
 
 function Cards() {
   return (
@@ -26,6 +26,12 @@ function Cards() {
                  />
                  <CardsItem
                    src={img2}
+                   text='Travel through the Islands of Bali in a Private Cruise'
+                   label='Luxury'
+                   path='/services'
+                 />
+                 <CardsItem
+                   src={img3}
                    text='Travel through the Islands of Bali in a Private Cruise'
                    label='Luxury'
                    path='/services'
@@ -50,7 +56,29 @@ function Cards() {
                    label='Adrenaline'
                    path='/sign-up'
                  />
+                                  
             </ul>
+            <ul className='cards__items'>
+                <CardsItem
+                   src={img5}
+                   text='Ride through the Sahara Desert on a guided camel tour'
+                   label='Adrenaline'
+                   path='/sign-up'
+                 />
+                <CardsItem
+                   src={img6}
+                   text='Ride through the Sahara Desert on a guided camel tour'
+                   label='Adrenaline'
+                   path='/sign-up'
+                 />
+                <CardsItem
+                   src={img7}
+                   text='Ride through the Sahara Desert on a guided camel tour'
+                   label='Adrenaline'
+                   path='/sign-up'
+                 />
+            </ul>
+
         </div>
       </div>
     </div>
